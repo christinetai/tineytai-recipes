@@ -149,6 +149,7 @@ button:focus { outline: none; }
 .tm-blue-text { color: #186e9d; }
 .tm-green-text { color: #C5F9D0; }
 .tm-turquoise-text { color: #83E1D6; }
+.tm-purple-text { color: #A277AB; }
 
 .navbar-toggler {
 	background: rgba(0,0,0,0.5);
