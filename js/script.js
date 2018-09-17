@@ -7,7 +7,7 @@ $('.myImg').click(function(){
     modal.style.display = "block";
     var newSrc = this.src;
     modalImg.attr('src', newSrc);
-    $("body").addClass("noscroll");
+    $('body').addClass("noscroll");
 });
 
 // Get the <span> element that closes the modal
@@ -15,7 +15,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
-  $("body").removeClass("noscroll");
+  $('body').removeClass("noscroll");
   modal.style.display = "none";
 }
 
@@ -23,7 +23,7 @@ span.onclick = function() {
 $(document).keydown(function(event) { 
   if (event.keyCode == 27) { 
     //$('#img01').hide();
-    $("body").removeClass("noscroll");
+    $('body').removeClass("noscroll");
     modal.style.display = "none";
   }
 });
